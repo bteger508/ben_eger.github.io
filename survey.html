@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ice Cream Survey!</title>
+  </head>
+  <body>
+    <section class="navigaton">
+        <a href="aboutMe.html">About Me</a>
+        <a href="pictureCollage.html">Pet types</a>
+        <a href="index.html">Other stuff</a>
+        <br>
+        <br>
+
+    </section>
+    <h1>Let's build your dream sunday!</h1>
+    <form>
+        <section class="flavor"><h2 for="ice-cream-flavor ">What flavor would you like?</label>
+            <input id="ice-cream-flavor" list="flavors" />
+    
+            <datalist id="flavors">
+            <option value="Vanilla" />
+            <option value="Chocolate" />
+            <option value="Strawberry" />
+            <option value="Birthday Cake" />
+            <option value="Black Cherry" />
+            <option value="Mocha Chip" />
+            <option value="Mint Chip" />
+            </datalist>
+        </section>
+
+        <section class="scoops">
+            <h3 for="scoop-count">How many scoops would you like?</h3>
+            <input id="scoop-count" type="number" step="1" min="1" max="5">
+        </section>
+        <section class="toppings">
+        <h2 for="toppings">What toppings would you like?</h2>
+        <label for="hot-fudge">Hot fudge</label>
+        <input type="checkbox" id="hud-fudge" name="topping" value="hot-fudge" />
+        <br />
+        <label for="sprinkles">Sprinkles</label>
+        <input type="checkbox" name="topping" value="sprinkles" />
+        <br />
+        <label for="bacon-bits">Bacon bits</label>
+        <input type="checkbox" name="topping" value="bacon-bits" />
+        </section>
+        <section class="submit">
+            <input type="submit" />
+        </section>
+    </form>
+  </body>
+</html>
