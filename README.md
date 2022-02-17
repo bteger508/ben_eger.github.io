@@ -1,3 +1,4 @@
 # bteger508.github.io
-My first website!
-I used this website for learning HTML, CSS and JS
+A website to help you get to know me :)
+
+I got the template from [StyleShout](https://www.styleshout.com/free-templates/ceevee/)
